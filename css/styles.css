@@ -1,0 +1,12 @@
+.navbar {
+    background-color: red;
+    margin-top: 100px;
+}
+
+.search-links{
+    display: flex;
+}
+
+.apple-logo {
+    max-width: 20px;
+}
