@@ -1,18 +1,19 @@
 body{
   font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
   background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
-
-
 .navbar {
   background-image: linear-gradient(rgb(133, 132, 132), rgba(133, 132, 132) 48%, rgb(110, 110, 110) 51%, rgb(133, 132, 132) 100%);
   margin-top: 90px;
-  margin-left: auto;
-  margin-right: auto;
+
   border: #7a7a7a 1px solid;
   width: 980px;
   border-radius: 3px;
@@ -52,6 +53,12 @@ body{
     height: 34px;
 }
 
+.search-button img {
+  width: 10px;
+  position: absolute;
+  padding-right: 80px;
+}
+
 .search {
   height: 15px;
   width: 99px;
@@ -68,10 +75,10 @@ body{
 
 .verse{
   margin-top: 50px;
-  width: 820px;
-  color: white;
   margin-left: auto;
   margin-right: auto;
+  width: 820px;
+  color: white;
   text-align: center;
 }
 
@@ -106,4 +113,41 @@ body{
 .bottom img {
   width: 336px;
   padding: 2px;
+}
+
+footer{
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+}
+
+.left p {
+  margin: 10px;
+}
+
+.right{
+  display: flex;
+  margin: 10px;
+}
+
+.link {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid gray;
+  height: 10px;
+}
+
+.right img{
+  
+  padding-left: 5px;
+  width: 13px;
+  height:13px;
 }
